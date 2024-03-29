@@ -9,8 +9,8 @@ import { Toaster } from "sonner";
 
 function Layout()
 {
-  const user = ""
-  const location =useLocation()
+  const user = "";
+  const location =useLocation();
 
   return user ? (
     <div className="w-full h-screen flex flex-col md:flex-row">
